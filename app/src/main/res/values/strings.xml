@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CoinFlip</string>
+    <string name="a_coin_that_can_be_pressed">A coin that can be pressed</string>
+    <string name="press_the_coin">Press the coin:</string>
+    <string name="won_0">Won: 0</string>
+    <string name="all_0">All: 0</string>
+    <string name="lost_0">Lost: 0</string>
+</resources>
