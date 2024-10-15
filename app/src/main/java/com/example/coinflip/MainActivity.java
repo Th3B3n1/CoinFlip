@@ -70,9 +70,13 @@ public class MainActivity extends AppCompatActivity {
             case 0:
                 this.coin.setImageResource(R.drawable.heads);
                 result = "Head " + random;
+                break;
             case 1:
                 this.coin.setImageResource(R.drawable.tails);
                 result = "Tail " + random;
+                break;
+            default:
+                break;
         }
         Toast.makeText(this, "Result: " + result, Toast.LENGTH_SHORT).show();
         this.all += 1;
